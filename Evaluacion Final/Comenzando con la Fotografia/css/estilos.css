@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+  color: white;
+}
+header{
+  background-color: #5b7989;
+  border-radius: 10px 0px 0px 0px;
+  width: 50%;
+  height: 12vh;
+  display: flex;
+  float: left;
+  font-size: 1vw;
+}
+nav{
+  background-color: #5b7989;
+  width: 50%;
+  height: 12vh;
+  border-radius: 0px 10px 0px 0px;
+  display: flex;
+  //*float: right;*//
+  text-align: center;
+}
+nav>h2{
+  text-align: right;
+  font-size: 3v;
+}
+nav a:hover{
+  color: green;
+  text-transform: capitalize;
+}
+nav a:enabled{
+  color: white;
+  text-decoration: none;
+}
