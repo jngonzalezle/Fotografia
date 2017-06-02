@@ -1,34 +1,55 @@
 body{
-  background-color: black;
+  background-color: #02010a;
   color: white;
+  font-family: 'Dancing Script', cursive;
 }
 header{
   background-color: #5b7989;
+  padding-left:  2%;
   border-radius: 10px 0px 0px 0px;
-  width: 50%;
-  height: 12vh;
-  display: flex;
+  width: 69.5%;
+  height: 5%;
+  display: inline-flex;
   float: left;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 nav{
-  background-color: #5b7989;
-  width: 50%;
-  height: 12vh;
+  position: relative;
+  flex-direction: row;
+  //*display:inline-flex;*//
+  //*width: 30%;*//
+  width: 20%;
+  height: 5%;
   border-radius: 0px 10px 0px 0px;
-  display: flex;
-  //*float: right;*//
-  text-align: center;
+  float:right;
+  background-color: #5b7989;
+  padding-left: 20.5%;
 }
-nav>h2{
+
+nav ul {
+  background-color: #5b7989;
+  //*width: 30%;*//
+  list-style-type: none;
+
+  //*height: 5%;*//
+  //*display:inline-flex;*//
+  //*margin-right: 0px;*//
   text-align: right;
-  font-size: 3v;
+  //*vertical-align:middle;*//
 }
-nav a:hover{
-  color: green;
-  text-transform: capitalize;
+nav h2{
+  text-align: right;
+  font-size: 1.5vw;
+  vertical-align: middle;
+  //*float: right;*//
+  background-color: #5b7989;
 }
+
 nav a:enabled{
   color: white;
   text-decoration: none;
+}
+
+#activo{
+  background-color: #4D679B;
 }
