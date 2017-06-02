@@ -1,34 +1,47 @@
 body{
-  background-color: black;
+  background-color: #02010a;
   color: white;
+  font-family: 'Dancing Script', cursive;
+  display: flex;
 }
 header{
   background-color: #5b7989;
   border-radius: 10px 0px 0px 0px;
+  padding-left: 2%;
   width: 50%;
-  height: 12vh;
-  display: flex;
+  display: inline;
   float: left;
-  font-size: 1vw;
 }
+header h1{
+  text-shadow: 2px 2px #02010a;
+}
+
 nav{
   background-color: #5b7989;
-  width: 50%;
-  height: 12vh;
   border-radius: 0px 10px 0px 0px;
-  display: flex;
-  //*float: right;*//
-  text-align: center;
+  outline-color: red;
+  width: 48%;
+
 }
-nav>h2{
+nav > a{
+  background-color: #5b7989;
+  border-radius: 0px 10px 0px 0px;
+  padding-right: 3%;
   text-align: right;
-  font-size: 3v;
-}
-nav a:hover{
-  color: green;
-  text-transform: capitalize;
-}
-nav a:enabled{
+  float: right;
+  display: inline-flex;
   color: white;
+}
+#activo {
   text-decoration: none;
+  text-shadow: 2px 2px #02010a;
+}
+
+nav a:hover{
+  text-shadow: 1px 1px #02010a;
+}
+#contenido_superior{
+  //*clear: both;*//
+  max-width: 900px;
+  background-color: #82c3a6;
 }
