@@ -2,15 +2,12 @@ body{
   background-color: #02010a;
   color: white;
   font-family: 'Dancing Script', cursive;
-  display: flex;
 }
 header{
   background-color: #5b7989;
   border-radius: 10px 0px 0px 0px;
   padding-left: 2%;
   width: 50%;
-  display: inline;
-  float: left;
 }
 header h1{
   text-shadow: 2px 2px #02010a;
@@ -21,6 +18,7 @@ nav{
   border-radius: 0px 10px 0px 0px;
   outline-color: red;
   width: 48%;
+  flex-direction: row-reverse;
 
 }
 nav > a{
@@ -28,8 +26,6 @@ nav > a{
   border-radius: 0px 10px 0px 0px;
   padding-right: 3%;
   text-align: right;
-  float: right;
-  display: inline-flex;
   color: white;
 }
 #activo {
@@ -40,8 +36,40 @@ nav > a{
 nav a:hover{
   text-shadow: 1px 1px #02010a;
 }
-#contenido_superior{
-  //*clear: both;*//
+.contenido_superior{
   max-width: 900px;
   background-color: #82c3a6;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align:middle;
+}
+.contenido_superior img{
+  width: 94%;
+  padding: 3%;
+
+}
+
+.imagenes_secundarias{
+  background-color: #d5c75f;
+  display: flex;
+  flex-wrap:nowrap;
+  padding: 3%;
+
+}
+.imagenes_secundarias_2{
+  width: 40%;
+  height: 80%;
+  margin: auto;
+}
+#encabezado{
+  display: flex;
+  flex-wrap: wrap;
+}
+#contenido{
+  width: 90%;
+  margin: auto;
+
+}
+img{
+  box-shadow: 5px 5px 20px #02010a;
 }
