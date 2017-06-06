@@ -2,6 +2,8 @@ body{
   background-color: #02010a;
   color: white;
   font-family: 'Dancing Script', cursive;
+  max-width: 900px;
+  margin: auto;
 }
 header{
   background-color: #5b7989;
@@ -19,7 +21,6 @@ nav{
   outline-color: red;
   width: 48%;
   flex-direction: row-reverse;
-
 }
 nav > a{
   background-color: #5b7989;
@@ -46,30 +47,54 @@ nav a:hover{
 .contenido_superior img{
   width: 94%;
   padding: 3%;
-
+  margin: auto;
+  /*-webkit-box-shadow: 5px 5px 20px #02010a;
+  -moz-box-shadow: 5px 5px 20px #02010a;
+  box-shadow:  5px 5px 20px #02010a;
+*/
 }
 
-.imagenes_secundarias{
+.imagenes_secundarias a img{
   background-color: #d5c75f;
   display: flex;
-  flex-wrap:nowrap;
-  padding: 3%;
+  flex-wrap:wrap;
+  /*padding: 3%;*/
+  margin: auto;
+  /*-webkit-box-shadow: 5px 5px 20px #02010a;
+  -moz-box-shadow: 5px 5px 20px #02010a;
+  box-shadow:  5px 5px 20px #02010a;
+*/
 
 }
-.imagenes_secundarias_2{
-  width: 40%;
-  height: 80%;
+.imagenes_secundarias{
+  width: 100%;
   margin: auto;
+  display: flex;
+  background-color: #d5c75f;
+  padding: 0%;
+
 }
+
+.imagenes_secundarias_2{
+  /*width: 23em;*/
+  width: 90%;
+  height: 85%;
+  padding: 3%;
+  margin auto;
+
+}
+
 #encabezado{
   display: flex;
   flex-wrap: wrap;
+
 }
 #contenido{
   width: 90%;
   margin: auto;
-
 }
 img{
-  box-shadow: 5px 5px 20px #02010a;
+  -webkit-box-shadow: 5px 5px 20px #02010a;
+  -moz-box-shadow: 5px 5px 20px #02010a;
+  box-shadow:  5px 5px 20px #02010a;
 }
