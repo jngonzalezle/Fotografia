@@ -39,19 +39,27 @@ nav a:hover{
 }
 .contenido_superior{
   max-width: 900px;
+  width: 100%;
+  height: 100%;
   background-color: #82c3a6;
-  margin: 0 auto;
   text-align: center;
-  vertical-align:middle;
+
 }
 .contenido_superior img{
   width: 94%;
-  padding: 3%;
-  margin: auto;
-  /*-webkit-box-shadow: 5px 5px 20px #02010a;
-  -moz-box-shadow: 5px 5px 20px #02010a;
-  box-shadow:  5px 5px 20px #02010a;
-*/
+  padding: 0%;
+  margin: 2%;
+}
+
+.imagenes_secundarias{
+  width: 100%;
+  display: flex;
+  background-color: #d5c75f;
+  padding: 0%;
+  margin-bottom: 5%;
+  text-align: center;
+  vertical-align: bottom;
+
 }
 
 .imagenes_secundarias a img{
@@ -59,28 +67,15 @@ nav a:hover{
   display: flex;
   flex-wrap:wrap;
   /*padding: 3%;*/
-  margin: auto;
-  /*-webkit-box-shadow: 5px 5px 20px #02010a;
-  -moz-box-shadow: 5px 5px 20px #02010a;
-  box-shadow:  5px 5px 20px #02010a;
-*/
-
-}
-.imagenes_secundarias{
-  width: 100%;
-  margin: auto;
-  display: flex;
-  background-color: #d5c75f;
-  padding: 0%;
+  margin: 7% 5% 3% 5%;
 
 }
 
 .imagenes_secundarias_2{
-  /*width: 23em;*/
   width: 90%;
   height: 85%;
-  padding: 3%;
-  margin auto;
+  padding: 0%;
+  background-color: #d5c75f;
 
 }
 
@@ -92,9 +87,64 @@ nav a:hover{
 #contenido{
   width: 90%;
   margin: auto;
+  background-color: #d5c75f;
+  border-radius: 10px;
 }
+
 img{
-  -webkit-box-shadow: 5px 5px 20px #02010a;
-  -moz-box-shadow: 5px 5px 20px #02010a;
-  box-shadow:  5px 5px 20px #02010a;
+  -webkit-box-shadow: 5px 5px 5px #02010a;
+  -moz-box-shadow: 5px 5px 5px #02010a;
+  box-shadow:  5px 5px 5px #02010a;
+}
+footer{
+  border-radius: 0px 0px 10px 10px;
+  background-color:  #C6d5c5;
+  display: flex;
+  color: black;
+  padding-left: 1%;
+  padding-right: 1%;
+  /*text-align: center;*/
+}
+
+footer h2{
+  text-align: center;
+}
+.columnas_footer{
+  width: 25%;
+  padding-bottom: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.columnas_footer ul{
+  list-style: none;
+}
+footer img{
+  box-shadow: none;
+  padding-right: 3%;
+}
+.imagenes_paisajes1{
+  display: flex;
+  text-align: center;
+  margin: 2%;
+}
+
+.imagenes_paisajes2{
+  display: flex;
+  text-align: center;
+  margin: 2%;
+}
+.imagenes_paisajes1  img{
+  width: 95%;
+}
+.imagenes_paisajes2  img{
+  width: 95%;
+}
+.columna_paisaje_1 img{
+  filter: blur(10px);
+}
+.columna_paisaje_2, .columna_paisaje_4, .columna_paisaje_6 img{
+  filter: grayscale(100%);
+}
+.columna_paisaje_3 img{
+  filter: sepia(90%);
 }
