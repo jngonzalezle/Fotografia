@@ -14,6 +14,14 @@ header{
 header h1{
   text-shadow: 2px 2px #02010a;
 }
+div a{
+  color: black;
+  text-decoration: underline;
+}
+
+#contacto{
+  word-break: break-all
+}
 
 nav{
   background-color: #5b7989;
@@ -89,6 +97,9 @@ nav a:hover{
   margin: auto;
   background-color: #d5c75f;
   border-radius: 10px;
+
+  animation: cargue_pagina 1s;
+
 }
 
 img{
@@ -103,7 +114,6 @@ footer{
   color: black;
   padding-left: 1%;
   padding-right: 1%;
-  /*text-align: center;*/
 }
 
 footer h2{
@@ -147,4 +157,31 @@ footer img{
 }
 .columna_paisaje_3 img{
   filter: sepia(90%);
+}
+
+#imagen_paisaje:hover{
+  animation: rotacion 3s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+
+}
+
+#imagen_retrato:hover{
+  animation: traslacion 3s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+@keyframes cargue_pagina {
+  0%´{transform: translate(0px, 1500px);}
+  40%{transform: translate(0px, 750px);}
+  80%{transform: translate(0px, -50px);}
+  100%{transform: translate(0px, 0px);}
+
+}
+
+@keyframes rotacion{
+  100%{transform: rotate(10deg); box-shadow: 5px 5px 5px #82c3a6}
+}
+@keyframes traslacion {
+  100%{transform: translate(20px, -5px); box-shadow: 5px 5px 5px #82c3a6}
 }
