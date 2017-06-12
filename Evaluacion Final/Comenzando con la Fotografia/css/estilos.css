@@ -208,7 +208,7 @@
   header{
     background-color: #5b7989;
     border-radius: 10px 10px 0px 0px;
-    padding-left: 0%;
+    padding-top: 2%;
     width: 100%;
     text-align: center;
     font-size: 1em;
@@ -224,7 +224,7 @@
   }
 
   #contacto{
-    word-break: break-all
+    word-break: break-all;
   }
 
 .navegador {
@@ -263,7 +263,8 @@
     height: 100%;
     background-color: #82c3a6;
     text-align: center;
-
+    border-top: 5px solid #82c3a6;
+    border-bottom: 5px solid #82c3a6;
   }
   .contenido_superior img{
     width: 94%;
@@ -333,7 +334,7 @@
   .columnas_footer{
     width: 94%;
     padding-bottom: 0%;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-left: 3%;
     margin-right: 3%;
   }
